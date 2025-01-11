@@ -20,7 +20,7 @@ workerID获取办法，点击打开插件，右键：检查，打开开发者功
 
 token怎么抓？
 ```txt
-orch?authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZGRyZXNzIjoiMHhiN2RiOThjZjFhNjA5NTM3Nzg5OGUzZDM3MzNiM2RjZjkyYTEzMGFmIiwiaWQiOjAsImV4cCI6MTc2ODAwMzExMn0.XxpJ0gmqs3iChQvUuK67XWGXI4d_aBrxsasfNzc6rR4
+orch?authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...
 ```
 orch?authToken=地址后面的就是token
 
