@@ -3,7 +3,7 @@ Openledger.xyz的项目
 
 注册地址：https://testnet.openledger.xyz/?referral_code=swpstmlzqe
 
-插件下载地址：https://chromewebstore.google.com/detail/teneo-community-node/emcclcoaglgcpoognfiggmhnhgabppkm
+插件下载地址：[https://chromewebstore.google.com/detail/teneo-community-node/emcclcoaglgcpoognfiggmhnhgabppkm](https://chromewebstore.google.com/detail/openledger-node/ekbbplmjjgoobhdlffmgeokalelnmjjc)
 
 ## 注意事件
 openledger会获取粘贴板的所有权限，请在虚拟机下安装插件，或者安装插件获取了相关信息就停用或者卸载！
