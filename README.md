@@ -16,7 +16,9 @@ token||||identity||||uuid||||ownerAddress||||proxy
 ```
 uuid生成地址：https://www.uuidgenerator.net/
 
-workerID获取办法，点击打开插件，右键：检查，打开开发者功能，找到(``orch?auth...``) 点击消息(``message``),找到``identity``和``ownerAddress``
+workerID获取办法，点击打开插件，右键：检查，打开开发者功能，找到(``orch?auth...``) 
+
+点击消息(``message``),找到``identity``和``ownerAddress``
 
 token怎么抓？
 ```txt
