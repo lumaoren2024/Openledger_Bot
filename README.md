@@ -1,4 +1,4 @@
-# Openledger_Bot
+# Openledger_Bot 2.0
 Openledger.xyz的项目
 
 注册地址：https://testnet.openledger.xyz/?referral_code=swpstmlzqe
@@ -10,51 +10,41 @@ openledger会获取粘贴板的所有权限，请在虚拟机下安装插件，�
 
 为什么我们还要运行呢？撸毛我们要有不放过任何一个项目的精神去做！
 
-## 1、教程开始
-### 1.1、在运行脚本之前，设置 config.txt
-``config.txt``写法
+## 1、教程开始(注意这个教程是2.0的教程)
+### 1.1、设置 accounts.txt
+登录上网站，里面有钱包地址
+
+### 1.2、设置 proxy.txt
 ```txt
-token||||identity||||uuid||||ownerAddress||||proxy
+ip:port # 不加协议，默认使用http，protocol是你的协议头！正式使用请全部删除！
+protocol://ip:port
+protocol://user:pass@ip:port
 ```
-uuid生成地址：https://www.uuidgenerator.net/
 
-identity和ownerAddress获取办法，点击打开插件，右键：检查，打开开发者功能，找到(``orch?auth...``) 
-
-点击消息(``message``),找到``identity``和``ownerAddress``
-
-token怎么抓？
-```txt
-orch?authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...
-```
-orch?authToken=地址后面的就是token
-
-### 1.2、生成文件说明
-程序运行会生成``data.json`` ``log.txt`` ``credentials.txt``
-
-``data.json``作用：生成矿工配置文件，可以删除，会再次生成
-
-``log.txt``作用：群友提议保存运行日志文件。觉得可行就干了。可以删除，会再次生成
-
-``credentials.txt``作用：序列号存放文件，全套脚本通用。可以删除，会再次生成
 ## 2、运行脚本
 ### 2.1、Mac
 ```bash
 wget url地址
-unzip Openledger_Mac_1.0.zip
+unzip Openledger_Mac_2.0.zip
 cd Openledger_Linux
 chmod +x Openledger_Mac
 ./Openledger_Mac
 ```
 
 ### 2.2、Win
-```txt
+方法1：
+
 双击Openledger.exe
-```
+
+方法2:
+带日志
+cmd到你的目录，然后输入 ``.\Openledger.exe``
+
 
 ### 2.3、Linux
 ```bash
 wget url地址
-unzip Openledger_Mac_1.0.zip
+unzip Openledger_Mac_2.0.zip
 cd Openledger_Linux
 chmod +x Openledger_Mac
 ./Openledger_Mac
