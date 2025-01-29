@@ -44,8 +44,8 @@ cmd到你的目录，然后输入 ``.\Openledger.exe``
 ### 2.3、Linux
 ```bash
 wget url地址
-unzip Openledger_Mac_2.0.zip
+unzip Openledger_Linux_2.0.zip
 cd Openledger_Linux
-chmod +x Openledger_Mac
-./Openledger_Mac
+chmod +x Openledger_Linux
+./Openledger_Linux
 ```
